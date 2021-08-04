@@ -17,4 +17,6 @@ urlpatterns = [
     path('movies/top/<int:page>', views.get_top_movies, name='top_movies'),
     path('movies/latest/', views.get_latest_movies, name='latest_movies'),
     path('movies/latest/<int:page>', views.get_latest_movies, name='latest_movies'),
+    path('reviews/popular/', views.get_popular_reviews, name='popular_reviews'),
+    path('reviews/popular/<int:page>', views.get_popular_reviews, name='popular_reviews'),
 ]
