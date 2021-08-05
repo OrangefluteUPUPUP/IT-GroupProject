@@ -28,7 +28,7 @@
 }
 
 .review .review-item .short-content .more .text-wrap.maxHeight .text {
-    max-height: 100px;
+    max-height: 200px;
 }
 
 .review .review-item .short-content .more .text-wrap .text {
@@ -54,4 +54,13 @@
     padding: 5px 10px;
     background-color: #f0f7f9;
     color: #3377aa;
+}
+
+.review .time {
+    color: #999;
+    font-size: 12px;
+}
+
+.review a:hover {
+    text-decoration: none;
 }
